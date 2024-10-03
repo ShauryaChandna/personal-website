@@ -2,19 +2,18 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: black;
-    color: white;
+    background-color: white; /* White background */
+    color: black; /* Black text */
     text-align: center;
 }
 
 header, main, footer {
-    max-width: 33%; /* This limits the content to the middle 1/3rd of the screen */
-    margin: 0 auto; /* Centers the content horizontally */
+    max-width: 33%; /* Restricts content to the middle 1/3rd */
+    margin: 0 auto; /* Centers content horizontally */
     text-align: center;
 }
 
 header {
-    background-color: #333;
     padding: 20px;
 }
 
@@ -48,7 +47,7 @@ main {
 }
 
 .link-list a {
-    color: #00bcd4;
+    color: red; /* Red for links */
     text-decoration: none;
     font-size: 1.1rem;
 }
@@ -58,9 +57,9 @@ main {
 }
 
 footer {
-    background-color: #333;
     padding: 10px;
     position: relative;
     bottom: 0;
     width: 100%;
+    background-color: white; /* Ensure footer has a white background */
 }
